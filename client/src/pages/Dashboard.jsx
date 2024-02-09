@@ -19,7 +19,7 @@ const Dashboard = () => {
                   <h5>{post.title}</h5>
                 </div>
                 <div className="dashboard__post-actions">
-                  <Link to={`/posts/${post.id}`} className="btn sm">
+                  <Link to={`/posts/${post.id}`} className="btn btn-off-white sm">
                     View
                   </Link>
                   <Link
